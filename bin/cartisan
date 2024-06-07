@@ -19,10 +19,10 @@ $app = new App([
 
 $app->addService('opencart', $openCartService);
 
-// $app->setSignature('./cartisan dumpme');
+$app->setSignature('./cartisan hello');
 
-$app->registerCommand('dumpme', function (CommandCall $input) {
-    echo "Dump dumper dumpest!";
+$app->registerCommand('hello', function (CommandCall $input) {
+    echo "Hello, this should work now";
     var_dump($input);
 });
 
