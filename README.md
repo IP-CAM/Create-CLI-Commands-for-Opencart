@@ -137,5 +137,5 @@ Execute your command from the command line (CLI) in the root folder of Opencart 
 > There is no need to register the command before you can use it
 
 ### 6. Useful links
-* [Minicli CLI package](https://github.com/minicli/minicli)
-* [Github repository](https://docs.minicli.dev/en/latest/)
+* [Minicli CLI Github repository](https://github.com/minicli/minicli)
+* [Minicli documentation](https://docs.minicli.dev/en/latest/)
