@@ -17,6 +17,19 @@ use Dotenv\Dotenv;
 
 /**
  * Class OpencartService
+ * 
+ * Author: J.J. van de Merwe
+ * Date: 2024.06.07
+ * Tested with: Opencart version 3
+ *
+ * This is the bootstrap service to have an Opencart instance
+ * for your commands. 
+ * This is the extremely extended version. Just take out or put in
+ * stuff to your own demands. This is a working version, but maybe
+ * you are not using VQMOD, then this would be not required here.
+ *
+ * See the sample commands in this repository where everything falls
+ * in place and it is easy to understand what is happening here.
  *
  * @package App\Command
  */
