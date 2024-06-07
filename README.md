@@ -4,5 +4,5 @@
 
 In this repository you find some supporting files to initialize your own CLI when using Opencart shopping cart.
 
-You can find the documentation on how to do it step by step (https://www.enovision.net/something)[here].
+You can find the documentation on how to do it step by step [here](https://www.enovision.net/something).
 
