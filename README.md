@@ -129,7 +129,10 @@ Reminder
 * Remember that *$this->getPrinter()->display(‘some text’)* will print text to the console
 * and *$this->getPrinter()->printTable($arrayWithHeading)* will print a table to the console
 
-Use your command from the command line (CLI) in the root folder of Opencart as: *.\bin\cartisan import_excel_data_into_customers*
+Execute your command from the command line (CLI) in the root folder of Opencart as: 
+```
+.\bin\cartisan import_excel_data_into_customers
+```
 
 > There is no need to register the command before you can use it
 
