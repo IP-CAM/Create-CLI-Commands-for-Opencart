@@ -4,6 +4,16 @@ namespace App\Command\product_test;
 
 use Minicli\Command\CommandController;
 
+/**
+ *  This is a command with an Opencart instance
+ *
+ *  The handle function is required, and it is
+ *  1. get the data
+ *  2. builds a table
+ *  3. outputs the table to the console
+ *
+ **/
+
 class DefaultController extends CommandController
 {
     const ID = 'ID';
@@ -24,6 +34,18 @@ class DefaultController extends CommandController
 
     /**
      * Retrieves an array of products.
+     *
+     * Very important:
+     * Since the service in minicli has a required `load` function, it
+     * can't be used for Opencart
+     *
+     * You load the loader from the registry, you can even add a construct
+     * to this class where you create a $this->load
+     *
+     * YOU CAN'T DO $this->load('catalog/product') by default!
+     *
+     * As you can see is everything on opencart executed using the opencart
+     * service that is defined in the `bin` folder.
      *
      * @return array The array of products.
      */
