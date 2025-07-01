@@ -30,19 +30,7 @@ mkdir command
 ```
 Now the result should look like:
 
-![Structure of folder](folder-contents.png)
-
-
-```
-- root folder of Opencart
-| - admin
-| - bin
-| - - services
-| - catalog
-| - command
-| - image
-| - plugin 
-```
+![Structure of folder](folder-contents.png | width=600)
 
 ### Step 3. create and modify some files
 
