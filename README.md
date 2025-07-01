@@ -30,7 +30,7 @@ mkdir command
 ```
 Now the result should look like:
 
-![Structure of folder](folder-contents.png | width=600)
+<img src="folder-contents.png" alt="Folder structure" width="600" height="600">
 
 ### Step 3. create and modify some files
 
