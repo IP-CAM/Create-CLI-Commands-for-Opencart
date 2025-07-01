@@ -29,6 +29,10 @@ In the root folder of your Opencart create a folder named **command**
 mkdir command
 ```
 Now the result should look like:
+
+![Structure of folder](folder-contents.png)
+
+
 ```
 - root folder of Opencart
 | - admin
